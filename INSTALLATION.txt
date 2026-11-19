@@ -1,0 +1,14 @@
+MON CARNET DE CLIENTES — installation sur iPhone 14
+
+L'application est une petite application web installable (PWA). Pour l'ajouter à l'écran d'accueil d'un iPhone, ses fichiers doivent être publiés à une adresse HTTPS. Copiez ensemble index.html, manifest.json, sw.js et icon.svg sur un hébergement web statique HTTPS de votre choix.
+
+Sur l'iPhone 14 :
+1. Ouvrez l'adresse HTTPS dans Safari.
+2. Touchez le bouton Partager (carré avec flèche vers le haut).
+3. Choisissez « Sur l'écran d'accueil », puis « Ajouter ».
+
+L'application peut ensuite être ouverte depuis son icône et fonctionne hors ligne après le premier chargement. Les clientes sont conservées localement dans Safari sur cet iPhone. Elles ne sont pas synchronisées vers un autre appareil. Pour imprimer, ouvrez « Le carnet » puis touchez « Imprimer »; choisissez une imprimante AirPrint ou enregistrez en PDF depuis la feuille de partage/impression iOS.
+
+Fichiers :
+- index.html : application
+- manifest.json, sw.js, icon.svg : installation, mode hors ligne et icône
